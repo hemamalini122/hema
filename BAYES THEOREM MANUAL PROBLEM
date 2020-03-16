@@ -1,0 +1,23 @@
+BAYES THEOREM
+
+A factory has 2 machines I and II. Machine I and II produce 30% and 70% of items. Further 3% of items produced by machine I are defective and 4% of items produced by machine II are defective. 
+An item is drawn at random. If the drawn item is defective. Find the probability that it was produced by machine II.
+Solution: Let A1 and A2 be events that items produced by machine I and II.
+	P(A) = 30% = 0.3
+	P(B)= 70% = 0.7
+
+Let B be event of drawing a defective item.
+
+	P(A1) = 30/100			P(B/A1) = 3/100
+	P(B1) = 70/100			P(B/A2) = 4/100
+Here the question is    An item is drawn at random. If the drawn item is defective. Find the probability that it was produced by machine II.
+P(A2/B) = P(A2∩B)/P(B)
+	P(B)=P(A1).P(B/A1) + P(A2).P(B/A2)
+	Here the condition is defective by machine II,
+P(A2∩B) = P(A2). P(B/A2)
+
+  P(A2/B) = (70/100) * (4/100)                             0.0280		         28
+	         ____________________                        = __________ = 	   _______
+        (30/100)(3/100)  + (70/100)(4/100)	               0.0370		          37
+
+Hence the probability that defective was produced by machine II is 28/37.
