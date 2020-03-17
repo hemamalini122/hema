@@ -1,0 +1,27 @@
+What Is Discrete Distribution?
+A discrete distribution is a statistical distribution that shows the probabilities of outcomes with finite values. Statistical distributions can be either discrete or continuous. A continuous distribution is built from outcomes that potentially have infinite measurable values.
+
+What is a Bernouilli Distribution?
+A Bernouilli distribution is a set of Bernouilli trials. Each Bernouilli trial has one possible outcome, chosen from S, success, or F, failure. In each trial, the probability of success, P(S)=p, is the same. The probability of failure is just 1 minus the probability of success: P(F) = 1-p. (Remember that “1” is the total probability of an event occurring…probability is always between zero and 1). Finally, all Bernouilli trials are independent from each other and the probability of success doesn’t change from trial to trial, even if you have information about the other trials’ outcomes.
+
+What is a Binomial Distribution?
+A binomial distribution as simply the probability of a SUCCESS or FAILURE outcome in an experiment or survey that is repeated multiple times. The binomial is a type of distribution that has two possible outcomes (the prefix “bi” means two, or twice). 
+
+
+What is a Negative Binomial Distribution?
+The negative binomial is similar to the binomial with two differences (specifically to numbers 1 and 5 in the list above):
+•	The number of trials, n is not fixed.
+•	A random variable Y= the number of trials needed to make r successes.
+main difference from the binomial distribution: with a regular binomial distribution, you’re looking at the number of successes. With a negative binomial distribution, it’s the number of failures that counts.
+
+What is the Poisson Distribution?
+A Poisson distribution is a tool that helps to predict the probability of certain events from happening when you know how often the event has occurred. It gives us the probability of a given number of events happening in a fixed interval of time.
+Poisson distributions, valid only for integers on the horizontal axis. λ (also written as μ) is the expected number of event occurrences.
+
+What is a Geometric Distribution?
+The geometric distribution represents the number of failures before you get a success in a series of Bernoulli trials. 
+
+What is a multinomial distribution?
+The multinomial distribution is used to find probabilities in experiments where there are more than two outcomes.
+
+
